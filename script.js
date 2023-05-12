@@ -1,5 +1,7 @@
 function sim() {
-    alert("Você aceitou namorar comigo! :)")
+    alert("Você aceitou namorar comigo! :)");
+    // redireciona para um URL apos aceitar
+    location.href="https://www.youtube-nocookie.com/embed/izGwDsrQ1eQ?autoplay=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1";
 }
 
 function desvia(t) {
