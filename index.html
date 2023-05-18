@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!-- 
+Código escrito por MTHS1901 em um tutorial no YouTube
+Confira: https://www.youtube.com/watch?v=zxxB9SFh9p4
+Você pode mandar esse arquivo HTML para quem quiser
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -41,15 +46,14 @@
     function sim() {
     alert("Você aceitou namorar comigo! :)");
     // redireciona para um URL após clicar no SIM
-    location.href="https://www.youtube-nocookie.com/embed/izGwDsrQ1eQ?autoplay=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1";
+    location.href = "https://music.youtube.com/watch?v=izGwDsrQ1eQ";
 }
 
-function desvia(t) {
-    var btn = t;
+function desvia(btn) {
     btn.style.position = 'absolute';
     btn.style.bottom = geraPosicao(10, 90);
     btn.style.left = geraPosicao(10, 90);
-    console.log("opa, desviei...");
+    console.log('opa, desviei...');
 }
 
 function geraPosicao(min, max) {
