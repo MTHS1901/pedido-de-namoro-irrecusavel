@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namora comigo?</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
@@ -16,4 +14,47 @@
         <button class="btn" onclick="desvia(this)" onmouseover="desvia(this)">NÃO</button>
     </div>
 </body>
+<style>
+    #conteudo {
+    background: #ff7a7a;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+}
+</style>
+
+<script>
+    function sim() {
+    alert("Você aceitou namorar comigo! :)");
+    // redireciona para um URL após clicar no SIM
+    location.href="https://www.youtube-nocookie.com/embed/izGwDsrQ1eQ?autoplay=1&rel=0&iv_load_policy=3&fs=0&controls=0&disablekb=1";
+}
+
+function desvia(t) {
+    var btn = t;
+    btn.style.position = 'absolute';
+    btn.style.bottom = geraPosicao(10, 90);
+    btn.style.left = geraPosicao(10, 90);
+    console.log("opa, desviei...");
+}
+
+function geraPosicao(min, max) {
+    return (Math.random() * (max - min) + min) + "%";
+}
+
+</script>
 </html>
