@@ -8,4 +8,4 @@ Link com uma prévia: https://betaworkz.com/apps/tutorial/pedido-de-namoro-irrec
 
 Tutorial ensinando fazer: https://www.youtube.com/watch?v=zxxB9SFh9p4
 
-Faça um bom uso e boa sorte!
+Boa sorte com a gata!
