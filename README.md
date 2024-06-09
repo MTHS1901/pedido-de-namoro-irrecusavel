@@ -1,4 +1,4 @@
-# PEDIDO DE NAMORO IRRECUSAVEL
+# PEDIDO IRRECUSÁVEL 
 
 Recentemente correu pelas redes sociais programadores fazendo seus pedidos de namoro por um software, sendo que só é possivel clicar sobre o botão SIM, pois ao passar o mouse encima do NÃO, ele vai para um lugar aleatorio na tela, fazendo com que a vitima tenha apenas uma unica opção que é aceitar.
 
